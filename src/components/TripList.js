@@ -1,18 +1,18 @@
 import React from 'react'
 import { useState } from 'react'
 
+
 const TripList = () => {
-    const [trips, setTrips] = useState([])
+  // const [trips, setTrips] = useState([])
+  // console.log(trips)
 
-    // console.log(trips)
-
-    fetch('http://localhost:3000/trips')
-        .then(response => response.json())
-        .then(json => setTrips(json))
+  //  fetch('http://localhost:3000/trips')
+  //     .then(response => response.json())
+  //     .then(json => setTrips(json))
 
   return (
     <div>
-        <h2>TripList</h2>
+        <h2>Trip List</h2>
     </div>
   )
 }
